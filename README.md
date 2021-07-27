@@ -86,6 +86,9 @@
 <details><summary>Show me How To Run the Project</summary>
 	<ul>
 		<li> On your browser, open the Airflow webserver DAGs Tab, and turn on the "twitter_dag".
+			<p align="center">
+			  <img src="https://github.com/TheVini/TwitterDataIngestion/blob/master/src_imgs/twitter_dag_example.PNG" height="200">
+			</p>
 		<li> Access the "twitter_dag".
 		<li> It should looks similar to this image, but dates may vary.
 			<p align="center">
