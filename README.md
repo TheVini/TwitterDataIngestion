@@ -48,17 +48,17 @@
 	<ul>
 		<li> Ensure you have docker installed on your computer, otherwise do it https://www.docker.com/products/docker-desktop. Note: WSL installation may be necessary.
 		<li> On git bash, "git clone git@github.com:TheVini/TwitterDataIngestion.git"
-		<li> On git bash, at the project root, type the following commands and go to drink a brazilian coffee:
+		<li> On git bash, at the project root, run the following commands and go to drink a brazilian coffee:
 		<ul>
 			<blockquote> echo -e "AIRFLOW_UID=$(id -u)\nAIRFLOW_GID=0" > .env </blockquote>
 			<blockquote> docker-compose up airflow-init </blockquote>
 			<blockquote> docker-compose up </blockquote>
 		</ul>
-		<li> Access the WebServer container by the CLI (there is a button on Docker Desktop for this purpose, on "Containers/App tab"), then type the following command:
+		<li> Access the WebServer container by the CLI (there is a button on Docker Desktop for this purpose, on "Containers/App tab"), then run the following command:
 		<ul>
 			<blockquote> cd java && tar -xzvf jre-8u301-linux-x64.tar.gz </blockquote>
 		</ul>
-		<li> Access the WebServer container by the browser (there is a button on Docker Desktop for this purpose, on "Containers/App tab"), then type the following command:
+		<li> Access the WebServer container by the browser (there is a button on Docker Desktop for this purpose, on "Containers/App tab"), then run the following command:
 			<ul>
 				<li> Username "airflow", password "airflow", then "Sign In".
 				<li> On "Admin" button on the upper bar, access the "Connections" menu.
@@ -99,8 +99,8 @@
 			  <img src="https://github.com/TheVini/TwitterDataIngestion/blob/master/src_imgs/twitter_dag_success.PNG" height="300">
 			</p>
 		<li> Access your project directory from your computer and go to "datalake" folder, it should have two folders: "bronze", and "silver".
-		<li> In order to create the "gold" folder, on airflow webserver CLI, type: /home/airflow/.local/lib/python3.6/site-packages/pyspark/bin/spark-submit /opt/airflow/spark/insight_tweet.py
-		<li> In order to visualize the "gold" folder content, type the following commands:
+		<li> In order to create the "gold" folder, on airflow webserver CLI, run the command: /home/airflow/.local/lib/python3.6/site-packages/pyspark/bin/spark-submit /opt/airflow/spark/insight_tweet.py
+		<li> In order to visualize the "gold" folder content, run the following commands:
 			<ul>
 				<blockquote> /home/airflow/.local/lib/python3.6/site-packages/pyspark/bin/spark-submit</blockquote>
 				<blockquote> df = spark.read.json("/opt/airflow/datalake/gold/twitter_insight_tweet")</blockquote>
