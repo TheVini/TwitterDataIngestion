@@ -56,7 +56,7 @@
 		</ul>
 		<li> Access the WebServer container by the CLI (there is a button on Docker Desktop for this purpose, on "Containers/App tab"), then run the following command:
 		<ul>
-			<blockquote> cd java && tar -xzvf jre-8u301-linux-x64.tar.gz </blockquote>
+			<blockquote> rm -rf datalake/* && tar -xzvf java/jre-8u301-linux-x64.tar.gz </blockquote>
 		</ul>
 		<li> Access the WebServer container by the browser (there is a button on Docker Desktop for this purpose, on "Containers/App tab"), then run the following command:
 			<ul>
