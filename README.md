@@ -67,7 +67,7 @@
 						<li> conn_id: twitter_deafult
 						<li> Conn Type: http
 						<li> Host: https://api.twitter.com
-						<li> Extra: {"Authorization": "Bearer [type here your bearer Token generated for your twitter API at the step [2.1.10](https://github.com/TheVini/TwitterDataIngestion/blob/master/README.md#21-setup-your-twitter-api-and-account)]"}
+						<li> Extra: {"Authorization": "Bearer [type here your bearer Token generated for your twitter API at the step <a href="https://github.com/TheVini/TwitterDataIngestion/blob/master/README.md#21-setup-your-twitter-api-and-account">2.1.10</a>]"}
 						<li> Then, "Save".
 					</ul>
 				<li> Example:
