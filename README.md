@@ -72,7 +72,7 @@
 					</ul>
 				<li> Example:
 					<p align="center">
-					  <img src="https://github.com/TheVini/TwitterDataIngestion/blob/master/src_imgs/twitter_connection_example.png" height="500">
+					  <img src="https://github.com/TheVini/TwitterDataIngestion/blob/master/src_imgs/twitter_connection_example.png" height="400">
 					</p>
 				<li> Again, click on the "+" blue button ("Add a new record").
 					<ul>
