@@ -102,9 +102,9 @@
 		<li> In order to create the "gold" folder, on airflow webserver CLI, type: /home/airflow/.local/lib/python3.6/site-packages/pyspark/bin/spark-submit /opt/airflow/spark/insight_tweet.py
 		<li> In order to visualize the "gold" folder content, type the following commands:
 			<ul>
-				<li> /home/airflow/.local/lib/python3.6/site-packages/pyspark/bin/spark-submit
-				<li> df = spark.read.json("/opt/airflow/datalake/gold/twitter_insight_tweet")
-				<li> df.show()
+				<li> > /home/airflow/.local/lib/python3.6/site-packages/pyspark/bin/spark-submit
+				<li> > df = spark.read.json("/opt/airflow/datalake/gold/twitter_insight_tweet")
+				<li> > df.show()
 			</ul>
 	</ul>
 </details>
