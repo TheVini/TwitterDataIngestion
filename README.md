@@ -50,13 +50,13 @@
 		<li> On git bash, "git clone git@github.com:TheVini/TwitterDataIngestion.git"
 		<li> On git bash, at the project root, type the following commands and go to drink a brazilian coffee:
 		<ul>
-			<li> echo -e "AIRFLOW_UID=$(id -u)\nAIRFLOW_GID=0" > .env
-			<li> docker-compose up airflow-init
-			<li> docker-compose up	
+			<blockquote> echo -e "AIRFLOW_UID=$(id -u)\nAIRFLOW_GID=0" > .env </blockquote>
+			<blockquote> docker-compose up airflow-init </blockquote>
+			<blockquote> docker-compose up </blockquote>
 		</ul>
 		<li> Access the WebServer container by the CLI (there is a button on Docker Desktop for this purpose, on "Containers/App tab"), then type the following command:
 		<ul>
-			<li> cd java && tar -xzvf jre-8u301-linux-x64.tar.gz
+			<blockquote> cd java && tar -xzvf jre-8u301-linux-x64.tar.gz </blockquote>
 		</ul>
 		<li> Access the WebServer container by the browser (there is a button on Docker Desktop for this purpose, on "Containers/App tab"), then type the following command:
 			<ul>
