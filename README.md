@@ -70,6 +70,10 @@
 						<li> Extra: {"Authorization": "Bearer [type here your bearer Token generated for your twitter API at the step 2.1.10]"}
 						<li> Then, "Save".
 					</ul>
+				<li> Example:
+					<p align="center">
+					  <img src="https://github.com/TheVini/TwitterDataIngestion/blob/master/src_imgs/twitter_connection_example.png" height="500">
+					</p>
 				<li> Again, click on the "+" blue button ("Add a new record").
 					<ul>
 						<li> conn_id: spark_default
