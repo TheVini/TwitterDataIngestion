@@ -87,12 +87,12 @@
 	<ul>
 		<li> On your browser, open the Airflow webserver DAGs Tab, and turn on the "twitter_dag".
 			<p align="center">
-			  <img src="https://github.com/TheVini/TwitterDataIngestion/blob/master/src_imgs/twitter_dag_example.PNG" height="600">
+			  <img src="https://github.com/TheVini/TwitterDataIngestion/blob/master/src_imgs/twitter_dag_example.PNG" height="500">
 			</p>
 		<li> Access the "twitter_dag".
 		<li> It should looks similar to this image, but dates may vary.
 			<p align="center">
-			  <img src="https://github.com/TheVini/TwitterDataIngestion/blob/master/src_imgs/twitter_dag_success.PNG" height="200">
+			  <img src="https://github.com/TheVini/TwitterDataIngestion/blob/master/src_imgs/twitter_dag_success.PNG" height="300">
 			</p>
 		<li> Access your project directory from your computer and go to "datalake" folder, it should have two folders: "bronze", and "silver".
 		<li> In order to create the "gold" folder, on airflow webserver CLI, type: /home/airflow/.local/lib/python3.6/site-packages/pyspark/bin/spark-submit /opt/airflow/spark/insight_tweet.py
