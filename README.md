@@ -2,7 +2,11 @@
 
 ## 1. Fluxogram Purpose
 
-- Imagine a beautiful drawing here, thanks.
+<details><summary>Show Fluxogram</summary>
+<p align="center">
+  <img src="https://github.com/TheVini/TwitterDataIngestion/blob/master/src_imgs/flow.png" width="350">
+</p>
+</details>
 
 ## 2. How to Use It?
 
