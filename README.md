@@ -4,7 +4,7 @@
 
 <details><summary>Show Fluxogram</summary>
 <p align="center">
-  <img src="https://github.com/TheVini/TwitterDataIngestion/blob/master/src_imgs/flow.png" width="350">
+  <img src="https://github.com/TheVini/TwitterDataIngestion/blob/master/src_imgs/flow.png" width="650">
 </p>
 </details>
 
