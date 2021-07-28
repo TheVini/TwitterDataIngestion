@@ -1,6 +1,6 @@
 # Twitter Data Ingestion
 
-## 1. Fluxogram Purpose
+## 1. Fluxogram
 
 <details><summary>Show Fluxogram</summary>
 <p align="center">
