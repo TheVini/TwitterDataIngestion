@@ -22,7 +22,10 @@
 		</ul>
 	<li> 3. Next pages are really import because they describe the usage purpose of your Twitter API. On "Intended Use" answer the following questions with which respectives sentences:
 		<ul>
-			<li> On "How will you use the Twitter API or Twiiter Data", describe "I am attending a course about introduction to data pipelines from a Brazilian training company called {Course Name}. I would like to have access to the Twitter API to learn about data pipelines and the process of extraction, load, and transformation of data as I will be using the Twitter data to build my first data pipeline. In this project, we are building an Apache Airflow job that daily will request tweets and users details related to conversations with the AluraOnline Twitter profile. This data will be processed using an Apache Spark job that will format it, allowing the extraction of information like the number of messages per day."
+			<li> On "How will you use the Twitter API or Twiiter Data", fill it with the text below.
+			<ul>
+				<blockquote> "I am attending a course about introduction to data pipelines from a Brazilian training company called {Course Name}. I would like to have access to the Twitter API to learn about data pipelines and the process of extraction, load, and transformation of data as I will be using the Twitter data to build my first data pipeline. In this project, we are building an Apache Airflow job that daily will request tweets and users details related to conversations with the AluraOnline Twitter profile. This data will be processed using an Apache Spark job that will format it, allowing the extraction of information like the number of messages per day."</blockquote>
+			</ul>
 			<li> On "Are you planning to analyze Twitter Data?", describe "I will be extracting tweets and users data, analysing the number of messages and conversations exchanged with the AluraOnline profile and the number of unique users interacting per day."
 			<li> Turn off the following Radio Buttons:
 			<ul>
