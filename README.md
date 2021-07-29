@@ -112,13 +112,16 @@
 			  <img src="https://github.com/TheVini/TwitterDataIngestion/blob/master/src_imgs/twitter_dag_success.PNG" height="300">
 			</p>
 		<li> Access your project directory from your computer and go to "datalake" folder, it should have two folders: "bronze", and "silver".
-		<li> In order to create the "gold" folder, on airflow webserver CLI, run the command: /home/airflow/.local/lib/python3.6/site-packages/pyspark/bin/spark-submit /opt/airflow/spark/insight_tweet.py
+		<li> In order to create the "gold" folder, on airflow webserver CLI, run the command: 
+		<ul>
+			<blockquote> /home/airflow/.local/lib/python3.6/site-packages/pyspark/bin/spark-submit /opt/airflow/spark/insight_tweet.py</blockquote>
+		</ul>
 		<li> In order to visualize the "gold" folder content, run the following commands:
-			<ul>
-				<blockquote> /home/airflow/.local/lib/python3.6/site-packages/pyspark/bin/spark-submit</blockquote>
-				<blockquote> df = spark.read.json("/opt/airflow/datalake/gold/twitter_insight_tweet")</blockquote>
-				<blockquote> df.show()</blockquote>
-			</ul>
+		<ul>
+			<blockquote> /home/airflow/.local/lib/python3.6/site-packages/pyspark/bin/spark-submit</blockquote>
+			<blockquote> df = spark.read.json("/opt/airflow/datalake/gold/twitter_insight_tweet")</blockquote>
+			<blockquote> df.show()</blockquote>
+		</ul>
 	</ul>
 </details>
 
