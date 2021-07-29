@@ -44,7 +44,10 @@
 		<ul>
 			<li> Name your project, and "Next".
 			<li> On "Which best describes you?", choose "Student", and "Next".
-			<li> On "Describe your new project", fill the field with "I will build my first data pipeline extracting data from Twitter to analyse the number of messages per day between the AluraOnline profile and other users.", and "Next".
+			<li> On "Describe your new project", fill it with the text below, then "Next". 
+			<ul>
+				<blockquote> "I will build my first data pipeline extracting data from Twitter to analyse the number of messages per day between the AluraOnline profile and other users."</blockquote>
+			</ul>
 			<li> On "Last Step, name your App", name your app (this name can be the same as that one on the first field), and "Complete".
 		</ul>
 	<li> 8. At the new page, click on "Add app" button.
